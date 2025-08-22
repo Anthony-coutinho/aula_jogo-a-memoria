@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memória do eroi</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/game.css">
+
+    <script src="./scripts/main.js" defer></script>
+</head>
+
+<!-- tabuleiro -->
+
+<div id="board" class="hidden"></div>
+
+
+
+<body>
+
+    <!-- templates -->
+
+    <template id="cardTemplate">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"></div>
+                <div class="flip-card-back"><img src="" alt="">/div>
+            </div>
+        </div>
+    </template>
+
+
+    <div id= "menu">
+        <h1>memoria do héroi</h1>
+        <div class="container">
+            <select name="numCards" id="numCards"></select>
+            <button id="start">start</button>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
