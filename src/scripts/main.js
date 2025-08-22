@@ -25,4 +25,6 @@ select.appendChild(op);
 
 }
 
-
+button.addEventListener("click", () => {
+    alert("bem vindo")
+})

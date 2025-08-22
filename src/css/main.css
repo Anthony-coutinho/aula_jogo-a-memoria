@@ -2,3 +2,9 @@ button{
 
     color: blue
 }
+
+.hiddem {
+    /* display */
+
+    display: none !important;
+}
