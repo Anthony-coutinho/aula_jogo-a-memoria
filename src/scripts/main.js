@@ -4,6 +4,7 @@
 let menu = document.getElementById('menu');
 let select = document.getElementById('numCards');
 let button = document.getElementById('start');
+let board = document.getElementById('board');
 
 // loop inicia 4. menor ou igual a 10. incrementa 2
 
@@ -26,5 +27,10 @@ select.appendChild(op);
 }
 
 button.addEventListener("click", () => {
-    alert("bem vindo")
+    // deixando o menu escondido
+    menu.classList.add("hidden");
+    //fazendo o nosso tabuleiro aparecer
+    board.classList.remove("hidden");
 })
+
+botao.click()
