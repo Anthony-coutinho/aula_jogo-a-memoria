@@ -10,7 +10,7 @@ class CardManager {
 
     gen(heroNumber){
         let template = document.getElementById("cardTemplate"); //referenciar o template
-        let clone = template.content.cloneNone(true); //criar clone
+        let clone = template.content.cloneNode(true); //criar clone
 
         //retornar o clone
         return clone
